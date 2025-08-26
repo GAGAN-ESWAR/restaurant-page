@@ -1,5 +1,5 @@
 import "./styles.css";
-import { HomePage } from "./modules/Home";
+import { HomePage } from "./modules/home.js";
 
 const content = document.querySelector("#content");
 
