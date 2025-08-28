@@ -25,7 +25,3 @@ button {
   cursor: pointer;   /* restore pointer cursor */
   font-size: 2rem;
 }
-
-#content {
-    box-shadow: inset 0 0 60px #7B4019;
-}
