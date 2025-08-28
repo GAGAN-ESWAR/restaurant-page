@@ -1,0 +1,44 @@
+.about-container {
+  display: flex;
+  flex-direction: column;   /* stack sections */
+  align-items: center;      /* center horizontally */
+  gap: 2rem;                /* spacing between cards */
+}
+
+/* Common card style */
+.time, .location, .contact {
+  width: 100%;
+  max-width: 600px;          /* keeps them narrow and centered */
+  background: rgba(255, 255, 255, 0.05);  /* translucent card */
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 0 25px rgba(255,255,255,0.08);
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* hover effect */
+.time:hover, .location:hover, .contact:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 0 40px rgba(255,255,255,0.2);
+}
+
+/* Headers */
+.hoursHeader,
+.locationHeader,
+.contactHeader {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+  color: #7B4019;  /* warm orange accent */
+  letter-spacing: 1px;
+}
+
+/* Content text */
+.hoursContent,
+.locationContent,
+.contactContent {
+  font-size: 1.2rem;
+  line-height: 1.8rem;
+  color: #e0e0e0;
+}
